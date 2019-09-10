@@ -1,6 +1,6 @@
 # Common Ports
 
-|Port|Attribution:|
+|Port|Attribution|
 |---|---|
 |7|Echo|
 |19|Chargen|
