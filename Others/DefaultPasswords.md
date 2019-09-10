@@ -1,4 +1,4 @@
-# Default Ports
+# Default Passwords
 
 |Brand|Model|Target|Password|
 |---|---|---|---|
