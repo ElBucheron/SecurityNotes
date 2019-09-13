@@ -1,49 +1,8 @@
 # Shell Commands
 
-## cd
-
-Change de répertoire courant.
-
-## ls [ ]
-
-Affiche le contenu du répertoir courant.
-
-```
-[-l] affichage détaillé
-[-a] affiche les fichier caché
-```
-
-## cp [ ]
-
-Copie un fichier.
-
-```
-[-r] copie un répertoire
-```
-
-## mv [ ]
-
-Déplace un fichier.
-
-```
-[-r] déplace un répertoire
-```
-
-## rm [ ]
-
-Supprime un fichier.
-
-```
-[-r] supprime un répertoire
-```
-
 ## ./FICHIER
 
 Exécute un programme.
-
-## man COMMANDE
-
-Affiche une aide sur la commande.
 
 ## pwd
 
@@ -65,6 +24,14 @@ Cree un lien vers un fichier.
 
 Concatene les contenu de fichiers.
 
+## cat /dev/clip
+
+Affiche le contenu du clipboard
+
+## cat file.txt > /dev/clip
+
+Envoie le contenu de file.txt dans le clipboard
+
 ## chmod [ ] FICHIER
 
 Modifie les droits d'acces aux fichiers.
@@ -72,10 +39,6 @@ Modifie les droits d'acces aux fichiers.
 ```
 [-go]   chmod go-rwx fichier.txt
 ```
-
-## vi FICHIER
-
-Editeur interactif de fichier.
 
 ## more FICHIER
 
@@ -193,10 +156,6 @@ Envoi et reception d'email.
 
 Affiche la file d'attente de mail.
 
-## ping ADRESSE
-
-Test la sante d'une machine.
-
 ## lpr [ ]
 
 Impression de fichier.
@@ -217,15 +176,11 @@ Ouvre une connexion ftp.
 ftp -n -v <<**
 ```
 
-## exit
-
-Quitte le shell en cours
-
 ## pstree [ ]
 
 Affiche l'arbre de tous les processus tournant.
 
-## ps -f -u reyneu
+## ps -f -u USER
 
 Affiche tous mes processus.
 
@@ -301,14 +256,6 @@ Teste si une condition est vraie
 ```
 if [-d toto]
 ```
-
-## m*
-
-Toutes les entrees du rep commancant par m.
-
-## *.txt
-
-Toutes les entrees du rep finissant par .txt.
 
 ## m1101/tp?
 
