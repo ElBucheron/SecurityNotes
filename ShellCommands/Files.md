@@ -5,3 +5,9 @@
 ```
 $ eom imageFile.png
 ```
+
+## Open with default app
+
+```
+$ xdg-open file
+```
