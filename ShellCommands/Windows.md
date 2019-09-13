@@ -17,3 +17,13 @@ slmgr/rearm
 ```
 rundll32.exe syssetup,SetupOobeBnk
 ```
+
+## Manage disks
+
+```
+> diskpart
+```
+
+## Use Linux on Windows
+
+wsl Windows
